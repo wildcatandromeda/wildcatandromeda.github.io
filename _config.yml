@@ -1,0 +1,20 @@
+title: Michael Holdsworth
+description: >-
+  A simple personal website and weekly blog.
+baseurl: ""
+url: ""
+
+# Theme
+theme: minima
+minima:
+  skin: classic
+
+# Plugins GitHub Pages supports automatically
+plugins:
+  - jekyll-feed
+
+# Show newest posts first (default), 10 per page
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Nothing else needs to change here for a simple site.

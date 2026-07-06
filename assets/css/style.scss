@@ -19,16 +19,12 @@ body {
 }
 
 .site-nav a {
-  margin-right: 1.2em;
-  padding-right: 1.2em;
   font-weight: bold;
-  border-right: 1px solid #ccc;
 }
 
-.site-nav a:last-child {
-  margin-right: 0;
-  padding-right: 0;
-  border-right: none;
+.nav-divider {
+  margin: 0 0.8em;
+  color: #999;
 }
 
 .site-title, .site-title:visited {
